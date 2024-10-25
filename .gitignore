@@ -1,0 +1,37 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output directories
+bin/
+build/
+dist/
+
+# Logs
+*.log
+
+# Dependency directories (when not using Go modules)
+vendor/
+
+# Go-specific
+*.test
+*.out
+*.prof
+
+# If using Go Modules
+/go.sum
+/go.mod
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Local environment variables and settings
+.env
+.env.*
